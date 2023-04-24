@@ -41145,16 +41145,15 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 94px;
+  min-height: 128px;
 }
 
 .u-header .u-menu-1 {
-  margin: 22px 0 0 auto;
+  margin: 28px 0 0 auto;
 }
 
 .u-header .u-nav-1 {
   font-size: 1rem;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -41164,15 +41163,26 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-1 {
   width: 245px;
   height: 80px;
-  margin: -44px auto 0 -27px;
+  margin: -50px auto 0 -27px;
+}
+
+.u-header .u-image-2 {
+  width: 265px;
+  height: 108px;
+  margin: -94px auto 20px -27px;
 }
 @media (max-width: 1199px) {
-  .u-header .u-menu-1 {
-    width: auto;
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 
   .u-header .u-image-1 {
     width: 245px;
+    margin-left: -27px;
+  }
+
+  .u-header .u-image-2 {
+    width: 265px;
     margin-left: -27px;
   }
 }
@@ -41186,26 +41196,14 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-social-icons-1 {
   height: 32px;
   min-height: 16px;
-  width: 158px;
-  min-width: 94px;
+  width: 32px;
+  min-width: 16px;
   white-space: nowrap;
   margin: 44px auto;
 }
 
 .u-footer .u-icon-1 {
-  color: rgb(59, 89, 152) !important;
-}
-
-.u-footer .u-icon-2 {
-  color: rgb(85, 172, 238) !important;
-}
-
-.u-footer .u-icon-3 {
   color: rgb(197, 54, 164) !important;
-}
-
-.u-footer .u-icon-4 {
-  color: rgb(0, 122, 185) !important;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
