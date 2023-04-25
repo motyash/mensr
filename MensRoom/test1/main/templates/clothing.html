@@ -1,0 +1,16 @@
+{% extends 'navbar.html' %}
+
+{% block content %}
+  <h1>Clothing</h1>
+  <ul>
+    {% for clothing in clothing_list %}
+      <li>
+
+        <p><strong>{{ clothing.name }}</strong></p>
+        <img src="{{ clothing.image.url }}" alt="{{ clothing.name }} image">
+        <p>Size: {{ clothing.size }}</p>
+        <p>Price: {{ clothing.price }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
